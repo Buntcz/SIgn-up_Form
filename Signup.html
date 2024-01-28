@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+ <div class="fullScreen">
+    <div class="leftSide">
+        <svg class="cyclone">
+ <img src="images/Cyclone.svg" alt="Cyclone" class="cyclone">
+ <h1 class="heading">Cyclone</h1>
+      </svg>
+    </div>
+    <div class="rightSide">
+  <h3 class="quote">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3>
+  <h3 class="quote">You <em>know</em> you want to.</h3>
+
+  <div class="formHome">
+ <h2 class="formH">Let's do this!</h2>
+<form action="#" method="post">
+    <p>
+        <label for="First_Name">FIRST NAME</label>
+        <input type="text" id="First_Name" name="userName" required>
+    </p>
+    <p>
+        <label for="Last_Name">LAST NAME</label>
+        <input type="text" id="Last_Name" name="userLastName" required>
+    </p>
+    <p>
+        <label for="mail">EMAIL</label>
+        <input type="email" id="mail" name="userEmail" required>
+    </p>
+    <p>
+        <label for="phoneNum">PHONE NUMBER</label>
+        <input type="tel" id="phoneNum" name="userTel" required>
+    </p>
+    <p>
+        <label for="pwd">PASSWORD</label>
+        <input type="password" id="pwd" name="userPassword" required>
+    </p>
+    <p>
+        <label for="ConfirmPwd">CONFIRM PASSWORD</label>
+        <input type="password" id="ConfirmPwd" name="userConfirmPassword" required>
+    </p>
+</form>
+<button type="submit">Create Account</button>
+<p class="Already">Already have an account? <a class="Login">Log in</a></p>
+  </div>
+   </div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #d3d3d3;
+}
+
+.fullScreen {
+    width: 100%;
+    background-color: #d3d3d3;
+}
+
+.leftSide {
+    width: 40%;
+    height: 100vh;
+    float: left;
+    background-color: white;
+    background-image: url(images/Background.jpg);
+    background-size: 100%;
+}
+
+.rightSide {
+    margin-left: 58.6%;
+    height: 100vh;
+    background-color: #d3d3d3;
+}
+
+.cyclone {
+    width: 15rem;
+    height: 15rem;
+    fill: #999;
+    position: relative;
+    top: 5rem;
+}
+
+.heading {
+    font-size: 5rem;
+    position: relative;
+    left: 5rem;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.quote {
+    position: relative;
+   top: 7rem;
+    left: -21rem;
+    font-size: 1.7rem;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 4rem;
+}
+
+.formHome {
+ position: relative;
+ left: -21rem;
+ top: 8.5rem;
+ width: 100%;
+ background-color: white;
+ box-shadow: 5px 10px 10px #838383;
+ width: 1095px;
+
+}
+
+.formH {
+    position: relative;
+    top: 1rem;
+    margin-left: 4rem;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+form {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 18vh;
+    width: 800px;
+}
+
+input {
+    font-size: 1.4rem;
+}
+
+label {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+}
+
+button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 1rem;
+  border: 0px solid black;
+  background-color: orangered;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+    position: relative;
+    margin-left: 4rem;
+    top: 9rem;
+    width: 20rem;
+    height: 4em;
+    box-shadow: 5px 5px 10px #838383;
+    
+}
+
+.Already {
+    position: relative;
+    top: 9.5rem;
+    margin-left: 4rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+}
+
+.Login {
+    font-weight: bolder;
+    color: orangered;
+}
+
+input:focus {
+  border-color: #72bcd4;
+  outline: #72bcd4;
+  box-shadow: 5px 5px 10px #838383;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+button:active {
+    background-color: red;
+}
